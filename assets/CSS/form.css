@@ -1,0 +1,42 @@
+/*form elements here 
+
+*/
+
+.form-questions {
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 50%;
+    justify-self: stretch;
+    margin: 0 10%;
+}
+.textbox {
+    height: 45px;
+    width: 90%;
+    background: #36454f;
+    color: white;
+    font-size: 22px;
+    align-self: center;
+}
+.interest {
+    background: #36454f;
+    border: whitesmoke solid;
+    text-align: center;
+}
+textarea {
+    width: 400px;
+    height: 200px;
+    background: #36454f;
+    color: white;
+    font-size: 22px;
+    align-self: center;
+}
+.btn {
+    height: 50px;
+    width: 100px;
+    background: linear-gradient(white, grey, black);
+    text-align: center;
+    margin: 0 40%;
+
+}

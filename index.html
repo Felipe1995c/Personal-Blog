@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Felipe's Personal Blog</title>
-    <link href="/assets/CSS/form.css" rel="stylesheet">
-    <link href="/assets/CSS/styles.css" rel="stylesheet">
+    <link href="./assets/CSS/form.css" rel="stylesheet">
+    <link href="./assets/CSS/styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -24,17 +24,20 @@
         <section class="input-section">
             <form class="form-questions" id="interests">
                 <h2 class="interest">What Interests You?</h2>
-                <input class="textbox" type="username" placeholder="Username" required>
-                <input class="textbox" type="title" placeholder="Title">
-                <textarea placeholder="What's on your mind?" id="Content"></textarea>
-                <button class="btn">Submit</button>
+                <input class="textbox" type="text" id="username" placeholder="Username" required>
+                <input class="textbox" type="text" id="title" placeholder="Title">
+                <textarea placeholder="What's on your mind?" id="content"></textarea>
+                <button class="btn" id="submit">Submit</button>
             </form>
         </section>
     </main>
-</body>
     <footer>
         <p id="contact"><a href="placeholder-contact-info">Contact Me</a></p>
         <p>&copy; 2024 Felipe's Blog. All rights reserved.</p>
     </footer>
 
+    <script src="./assets/js/logic.js"></script>
+    <script src="./assets/js/form.js"></script>
+
+</body>
 </html>

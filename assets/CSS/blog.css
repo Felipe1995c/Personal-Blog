@@ -1,8 +1,8 @@
-body {
+.light {
     background: grey;
     opacity: 97%;
 }
-header h1 {
+ .light-header {
     font-size: 35px;
     border-bottom: whitesmoke solid 5px;
     text-shadow: 2px 2px whitesmoke;
@@ -16,15 +16,41 @@ header h1 {
 }
 .blog-content h2 {
     border: 4px solid black;
-    width: 100px;
+    width: 300px;
+    text-align: center;
 }
-a {
+.link {
     text-decoration: underline;
-    color:black;
+    color: black;
 }
-a:visited {
+#back-btn:visited {
     color:black;
     text-decoration: underline;
 }
+#back-btn {
+    float: right;
+    display:flex;
+    flex-direction: row-reverse;
+}
+.switch {
+    float: right;
+    width: 60px;
+    height: 34px;
+  }
 
 /* Need to add Icon to toggle dark mode/light mode*/
+
+#theme-switcher {
+   float: right;
+   margin-right: 5px;
+}
+   .dark-mode {
+       color: white;
+       background-color: black;
+}   
+.dark-header {
+    text-shadow: none;
+}
+.dark-link {
+    color: whitesmoke;
+}

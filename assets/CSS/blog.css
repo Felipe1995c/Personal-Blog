@@ -43,8 +43,11 @@
 #theme-switcher {
    float: right;
    margin-right: 5px;
+   height:30px;
+   width:30px;
+   display: none;
 }
-   .dark-mode {
+.dark-mode {
        color: white;
        background-color: black;
 }   

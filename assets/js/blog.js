@@ -8,7 +8,7 @@ for(i=0; i<blogs.length; i++){
   h2.textContent = blogs[i].title;
 
   let p = document.createElement("p");
-  p.textContent = blogs[i].title;
+  p.textContent = blogs[i].content;
 
   let puname = document.createElement("p");
   puname.textContent = "Posted by: "+blogs[i].username;
